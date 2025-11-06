@@ -37,14 +37,18 @@ class Player(PlayerGeneral):
 
 
 
-fighter = {"hp":50,
+fighter = {
+            "name": "avi",
+            "hp":50,
            "speed":random.randint(5,10),
            "power":random.randint(5,10) + 2,
            "armor_rating": random.randint(5,15),
            "profession": "fighter"
            }
 
-cure = {"hp":60,
+cure = {
+        "name": "avi",
+        "hp":60,
         "speed":random.randint(5,10),
         "power":random.randint(5,10) + 2,
         "armor_rating": random.randint(5,15),

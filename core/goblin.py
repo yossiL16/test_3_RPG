@@ -32,7 +32,7 @@ class Goblin(PlayerGeneral):
 goblin = {
         "name": "bob",
         "hp": 20,
-       "type": "orc",
+       "type": "goblin",
        "speed": random.randint(5,10),
        "power": random.randint(5,10),
        "armor_rating": 1,
